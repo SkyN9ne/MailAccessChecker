@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import requests, threading, os, sys, time, random, os.path
 from colorama import Fore, init
 
@@ -25,7 +26,7 @@ if not os.path.exists("proxies.txt"):
         print("\n{}\n".format(logo))
         print("Please add proxies into proxies.txt")
         print()
-        input("Press any key after you done it..")
+        input("Press any key after you have done it...")
 if not os.path.exists("combos.txt"):
     with open("combos.txt", "a+") as e:
         e.close()
@@ -33,7 +34,7 @@ if not os.path.exists("combos.txt"):
         print("\n{}\n".format(logo))
         print("Please add combos into combos.txt")
         print()
-        input("Press any key after you done it..")
+        input("Press any key after you have done it...")
 
 def load_accs():
     try:
